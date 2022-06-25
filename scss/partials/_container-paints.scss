@@ -1,0 +1,25 @@
+.container-paints {
+    margin-top: 240px;
+align-items: center;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;
+    .card-paint {
+        margin: 2rem;
+        width: 18rem;
+        height: 20rem;
+        text-align: center;
+        img {
+            width: 18rem;
+        height: 20rem;
+        }
+        &:hover{
+            box-shadow: 1px 1px 1px 1px rgb(87, 86, 86);       }
+    }
+    @media screen and (min-width:320px) and (max-width:768px) {
+        margin: 2rem;
+    }
+}
+

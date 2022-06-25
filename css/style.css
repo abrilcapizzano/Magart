@@ -1,0 +1,82 @@
+body {
+  font-family: 'Times New Roman', Times, serif; }
+
+header nav {
+  background-color: rgba(211, 211, 211, 0.574); }
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+      justify-content: space-evenly; } }
+
+header li {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    header li {
+      justify-content: center; } }
+
+header li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black; }
+
+.container-paints {
+  margin-top: 240px;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .container-paints .card-paint {
+    margin: 2rem;
+    width: 18rem;
+    height: 20rem;
+    text-align: center; }
+    .container-paints .card-paint img {
+      width: 18rem;
+      height: 20rem; }
+    .container-paints .card-paint:hover {
+      box-shadow: 1px 1px 1px 1px #575656; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .container-paints {
+      margin: 2rem; } }
+
+footer nav {
+  background-color: rgba(211, 211, 211, 0.574); }
+
+footer nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    footer nav ul {
+      flex-direction: column;
+      justify-content: space-evenly; } }
+
+footer li {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    footer li {
+      justify-content: center; } }
+
+footer li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black; }
